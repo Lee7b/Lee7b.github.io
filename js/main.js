@@ -14,13 +14,13 @@ let typewriter = new Typewriter(introtxt, {
 });
 
 // Initialize popover
-// $('#prj1btn').popover({
-// 	content: "You're already here silly!",
-// 	placement: 'right',
-// 	trigger: 'focus',
-// 	toggle: 'popover',
-// 	animation: true
-// });
+$('#prj1btn').popover({
+	content: "You're already here silly!",
+	placement: 'right',
+	trigger: 'focus',
+	toggle: 'popover',
+	animation: true
+});
 
 // Update the show more button when clicked
 function updateShowMoreBtn() {
