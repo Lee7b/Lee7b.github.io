@@ -5,25 +5,22 @@ AOS.init({
 	offset: 100,
 })
 
-// Initialize Smooth Scroll
-$('#nav a').smoothScroll();
-
 // Initialize TypeWriter
 let introtxt = document.getElementById('typewriter');
 let typewriter = new Typewriter(introtxt, {
-	strings: ['Sam Burkett', 'Software Developer'],
+	strings: ['Hi there', 'My name is Sam', "I'm a full stack developer!"],
 	autoStart: true,
 	loop: true,
 });
 
 // Initialize popover
-$('#prj1btn').popover({
-	content: "You're already here silly!",
-	placement: 'right',
-	trigger: 'focus',
-	toggle: 'popover',
-	animation: true
-});
+// $('#prj1btn').popover({
+// 	content: "You're already here silly!",
+// 	placement: 'right',
+// 	trigger: 'focus',
+// 	toggle: 'popover',
+// 	animation: true
+// });
 
 // Update the show more button when clicked
 function updateShowMoreBtn() {
