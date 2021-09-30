@@ -8,7 +8,7 @@ AOS.init({
 // Initialize TypeWriter
 let introtxt = document.getElementById('typewriter');
 let typewriter = new Typewriter(introtxt, {
-	strings: ['Hi there', 'My name is Sam', "I'm a full stack developer!"],
+	strings: ['hi there', "my name is Sam", "and I'm a full stack developer"],
 	autoStart: true,
 	loop: true,
 });
