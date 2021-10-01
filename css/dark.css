@@ -1,0 +1,48 @@
+body.dark-theme {
+    background: #121212;
+    color: white;
+}
+
+body.dark-theme .top-nav-collapse {
+    /* background-color: rgb(49, 47, 47); */
+    background-color: #181818;
+}
+
+body.dark-theme #about {
+    background-color: #282828;
+    color: white;
+    overflow-x: hidden;
+}
+
+body.dark-theme #skills .list-group-item.newactive {
+    /* background-color: rgb(49, 47, 47); */
+    background-color: #181818;
+    color: white;
+}
+
+body.dark-theme #skills .list-group-item {
+    /* background-color: rgb(49, 47, 47); */
+    background-color: #282828;
+    color: white;
+}
+
+body.dark-theme .area {
+    background: linear-gradient(90deg, rgb(18, 18, 18) 5%, rgb(29, 25, 25) 100%);
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+body.dark-theme #contact-me {
+    background-color: #181818;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 0;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+}

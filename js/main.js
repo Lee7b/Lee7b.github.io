@@ -30,3 +30,16 @@ function updateShowMoreBtn() {
 	let button = document.getElementById('showmoretxt');
 	button.innerHTML === 'Show More' ? button.innerHTML = 'Show Less' : button.innerHTML = 'Show More'
 }
+
+function darkMode() {
+	var body = document.body;
+	var darkModeButton = document.getElementById("darklighticon");
+
+	body.classList.toggle('dark-theme');  
+
+	if (body.classList == "dark-theme") {
+		darkModeButton.classList = "fas fa-sun";
+	} else {
+		darkModeButton.classList = "fas fa-moon";
+	}
+}
