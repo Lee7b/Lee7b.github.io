@@ -1,32 +1,32 @@
-body.dark-theme {
+body.dark {
     background: #121212;
     color: white;
 }
 
-body.dark-theme .top-nav-collapse {
+body.dark .top-nav-collapse {
     /* background-color: rgb(49, 47, 47); */
     background-color: #181818;
 }
 
-body.dark-theme #about {
+body.dark #about {
     background-color: #282828;
     color: white;
     overflow-x: hidden;
 }
 
-body.dark-theme #skills .list-group-item.newactive {
+body.dark #skills .list-group-item.newactive {
     /* background-color: rgb(49, 47, 47); */
     background-color: #181818;
     color: white;
 }
 
-body.dark-theme #skills .list-group-item {
+body.dark #skills .list-group-item {
     /* background-color: rgb(49, 47, 47); */
     background-color: #282828;
     color: white;
 }
 
-body.dark-theme .area {
+body.dark .area {
     background: linear-gradient(90deg, rgb(18, 18, 18) 5%, rgb(29, 25, 25) 100%);
     width: 100vw;
     height: 100vh;
@@ -34,7 +34,7 @@ body.dark-theme .area {
     max-height: 100vh;
 }
 
-body.dark-theme #contact-me {
+body.dark #contact-me {
     background-color: #181818;
     color: white;
     height: 250px;

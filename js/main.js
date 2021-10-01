@@ -31,15 +31,18 @@ function updateShowMoreBtn() {
 	button.innerHTML === 'Show More' ? button.innerHTML = 'Show Less' : button.innerHTML = 'Show More'
 }
 
+const currentTheme = localStorage.getItem("theme");
+
+if (currentTheme == "dark") {
+	document.body.classList.add("dark");
+}
+
 function darkMode() {
-	var body = document.body;
-	var darkModeButton = document.getElementById("darklighticon");
+	document.body.classList.toggle('dark');
 
-	body.classList.toggle('dark-theme');  
-
-	if (body.classList == "dark-theme") {
-		darkModeButton.classList = "fas fa-sun";
+	if (currentTheme !== "dark") {
+		localStorage.setItem("theme", "dark");
 	} else {
-		darkModeButton.classList = "fas fa-moon";
+		localStorage.setItem("theme", "");
 	}
 }
