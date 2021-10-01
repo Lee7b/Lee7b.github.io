@@ -43,12 +43,16 @@ AOS.init({
 })
 
 // Initialize TypeWriter
-let introtxt = document.getElementById('typewriter');
-let typewriter = new Typewriter(introtxt, {
-	strings: ['hi there', "my name is Sam", "and I'm a full stack developer"],
-	autoStart: true,
-	loop: true,
+let typewriterText = document.getElementById('typewriter');
+let typewriter = new Typewriter(typewriterText, {
+	delay: 100,
+	deleteSpeed: 40
 });
+typewriter
+	.typeString('hi there. <br /> my name is sam.')
+	.pauseFor(3000)
+	.typeString("<br/> i'm a full stack developer")
+	.start();
 
 // Initialize popover
 $('#prj1btn').popover({

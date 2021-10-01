@@ -58,3 +58,8 @@ body.dark #contact-me {
     overflow: hidden;
     font-family: 'Nunito', sans-serif;
 }
+
+body.dark #contact-me .btn-color {
+    background-color: #383838;
+    color: white;
+}

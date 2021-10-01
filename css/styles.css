@@ -77,6 +77,11 @@ html {
     font-family: 'Nunito', sans-serif;
 }
 
+#contact-me .btn-color {
+    background-color: #447fac;
+    color: white;
+}
+
 /* Header background animation */
 .context {
     width: 100%;
