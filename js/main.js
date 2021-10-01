@@ -50,8 +50,8 @@ let typewriter = new Typewriter(typewriterText, {
 });
 typewriter
 	.typeString('hi there. <br /> my name is sam.')
-	.pauseFor(3000)
-	.typeString("<br/> i'm a full stack developer")
+	.pauseFor(2000)
+	.typeString("<br/> i'm a full stack developer.")
 	.start();
 
 // Initialize popover
