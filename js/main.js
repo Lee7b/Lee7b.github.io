@@ -1,3 +1,39 @@
+const currentTheme = localStorage.getItem("theme");
+
+if (currentTheme === "dark") {
+	document.body.classList.add("dark");
+	updateImagesForTheme("dark");
+}
+
+function toggleDarkMode() {
+	document.body.classList.toggle('dark');
+
+	// Update storage and images for dark mode
+	if (document.body.classList.contains("dark")) {
+		localStorage.setItem("theme", "dark");
+		updateImagesForTheme("dark");
+	} else {
+		localStorage.setItem("theme", "light");
+		updateImagesForTheme("light");
+	}
+}
+
+function updateImagesForTheme(theme) {
+	let aboutImage = document.getElementById("about-content-image");
+	let skillsImage = document.getElementById("skills-image");
+	let projectsImage = document.getElementById("projects-image");
+
+	if (theme === "dark") {
+		aboutImage.src = "/img/aboutmeimgdark.svg";
+		skillsImage.src = "/img/skillsimgdark.svg";
+		projectsImage.src = "/img/projectsimgdark.svg";
+	} else {
+		aboutImage.src = "/img/aboutmeimg.svg";
+		skillsImage.src = "/img/skillsimg.svg";
+		projectsImage.src = "/img/projectsimg.svg";
+	}
+}
+
 // Initialize AOS
 AOS.init({
 	duration : 2000,
@@ -29,20 +65,4 @@ function updateShowMoreBtn() {
 
 	let button = document.getElementById('showmoretxt');
 	button.innerHTML === 'Show More' ? button.innerHTML = 'Show Less' : button.innerHTML = 'Show More'
-}
-
-const currentTheme = localStorage.getItem("theme");
-
-if (currentTheme == "dark") {
-	document.body.classList.add("dark");
-}
-
-function darkMode() {
-	document.body.classList.toggle('dark');
-
-	if (currentTheme !== "dark") {
-		localStorage.setItem("theme", "dark");
-	} else {
-		localStorage.setItem("theme", "");
-	}
 }

@@ -3,29 +3,6 @@ body.dark {
     color: white;
 }
 
-body.dark .top-nav-collapse {
-    /* background-color: rgb(49, 47, 47); */
-    background-color: #181818;
-}
-
-body.dark #about {
-    background-color: #282828;
-    color: white;
-    overflow-x: hidden;
-}
-
-body.dark #skills .list-group-item.newactive {
-    /* background-color: rgb(49, 47, 47); */
-    background-color: #181818;
-    color: white;
-}
-
-body.dark #skills .list-group-item {
-    /* background-color: rgb(49, 47, 47); */
-    background-color: #282828;
-    color: white;
-}
-
 body.dark .area {
     background: linear-gradient(90deg, rgb(18, 18, 18) 5%, rgb(29, 25, 25) 100%);
     width: 100vw;
@@ -34,6 +11,41 @@ body.dark .area {
     max-height: 100vh;
 }
 
+/* Styling for Navbar  */
+body.dark .top-nav-collapse {
+    background-color: #181818;
+}
+
+/* Styling for About section */
+body.dark #about {
+    background-color: #282828;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Styling for skills section */
+body.dark #skills .list-group-item.newactive {
+    background-color: #181818;
+    color: white;
+}
+
+body.dark #skills .list-group-item {
+    background-color: #282828;
+    color: white;
+}
+
+/* Styling for projects section */
+body.dark #projects .card-header-color {
+    background-color: #282828;
+    color: white;
+}
+
+body.dark #projects .btn-color {
+    background-color: #383838;
+    color: white;
+}
+
+/* Styling for contact section */
 body.dark #contact-me {
     background-color: #181818;
     color: white;
