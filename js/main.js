@@ -1,4 +1,5 @@
 const currentTheme = localStorage.getItem("theme");
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)"); // Not currently using, but may at some point
 
 if (currentTheme === "dark") {
 	document.body.classList.add("dark");
