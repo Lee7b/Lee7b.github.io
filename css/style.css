@@ -78,6 +78,10 @@ html {
 }
 
 /* Styling for About section */
+#about h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
 #about {
     background-color: #364a61;
     color: white;
@@ -96,6 +100,10 @@ html {
 }
 
 /* Styling for skills section */
+#skills h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
 #skills .list-group-item.newactive {
     /* background-color: rgb(49, 47, 47); */
     background-color: #ca5d42;
@@ -103,6 +111,10 @@ html {
 }
 
 /* Styling for projects section */
+#projects h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
 #projects .card-header-color {
     background-color: #ca5d42;
     color: white;
