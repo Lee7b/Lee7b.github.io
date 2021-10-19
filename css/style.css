@@ -135,7 +135,7 @@ body {
 #contact-me {
     background-color: #447fac;
     color: white;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +169,6 @@ body {
 }
 
 .area {
-    background: rgb(60,85,113);
     background: linear-gradient(90deg, rgba(60,85,113,1) 5%, rgba(202,93,66,1) 100%);
     width: 100vw;
     height: 100vh;
