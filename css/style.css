@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
   }
 
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
 /* Styling for Navbar  */
 .navbar {
     background-color: transparent;
@@ -14,13 +18,12 @@ html {
 }
 
 #navbarNav .nav-item .nav-link {
-    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     padding-right: 1rem;
 }
 
 #navbarNav .nav-item .navtext {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .night-light-label #night-light-checkbox {
@@ -79,7 +82,7 @@ html {
 
 /* Styling for About section */
 #about h2 {
-    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 #about {
@@ -89,7 +92,6 @@ html {
 }
 
 #about-content {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     padding-top: 4em;
     padding-bottom: 4em;
@@ -101,7 +103,7 @@ html {
 
 /* Styling for skills section */
 #skills h1 {
-    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 #skills .list-group-item.newactive {
@@ -112,7 +114,7 @@ html {
 
 /* Styling for projects section */
 #projects h1 {
-    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 #projects .card-header-color {
@@ -140,7 +142,10 @@ html {
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     margin-bottom: 0;
     overflow: hidden;
-    font-family: 'Nunito', sans-serif;
+}
+
+#contact-me h1 {
+    font-weight: 500;
 }
 
 #contact-me .btn-color {
@@ -156,8 +161,8 @@ html {
 }
 
 #typewriter {   
+    font-family: "Nunito", sans-serif;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: #fff;
