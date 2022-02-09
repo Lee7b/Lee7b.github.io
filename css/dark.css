@@ -32,7 +32,15 @@ body.dark #skills .list-group-item {
 
 /* Styling for projects section */
 body.dark #projects .card-header-color {
+    background-color: #181818;
+    color: white;
+}
+
+body.dark #projects .card-body {
     background-color: #282828;
+}
+
+body.dark #projects .card-text{
     color: white;
 }
 
@@ -42,8 +50,13 @@ body.dark #projects .btn-color {
 }
 
 /* Styling for contact section */
+body.dark .modal-content {
+    background-color: #282828;
+}
+
 body.dark #contact-me {
     background-color: #181818;
+    color: white;
 }
 
 body.dark #contact-me .btn-color {
