@@ -12,7 +12,7 @@ let typewriter = new Typewriter(typewriterText, {
 typewriter
 	.typeString('hi there. <br /> my name is sam.')
 	.pauseFor(2000)
-	.typeString("<br/> i'm a full stack developer.")
+	.typeString("<br/> i'm a full stack engineer.")
 	.start();
 
 // Initialize popover
